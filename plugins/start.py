@@ -129,11 +129,11 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="t.me/httpshsjsjsosbajsndidsjsjisis")],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="t.me/")],
 
     [
-                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ʜᴇʟᴘ •', callback_data = "help")
+                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", url="t.me/"),
+                    InlineKeyboardButton('ʜᴇʟᴘ •', url="t.me/")
 
     ]
             ]
